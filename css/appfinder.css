@@ -1,0 +1,68 @@
+body{
+	background-color:#ecf0f1;
+	font-size:16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+  }
+header {
+	background:url(../img/header.jpg)no-repeat center;
+	background-size:cover;
+	width:100%;
+	min-height:720px;
+}
+nav {
+	background-color:transparent;
+	box-shadow:5px #888888;
+/*	position: fixed; ESTE HACE QUE LA BARRA SE MANTENGA MIENTRAS SE DESLIZA*/ 
+}
+nav .barra ul li a:hover{
+	color:#2c3e50;
+}
+.registro a{
+	background-color:rgba(16,20,26,0.4);
+	margin:10px;
+}
+
+.registro a:hover{
+	background-color:rgba(16,20,26,0.7);
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:250px;
+}
+
+.centrar{
+	text-align:center;
+}
+
+#titulo_quehacemos{
+	font-size: 40px;	
+	margin-top: 50px;
+	color:#bdc3c7;
+}
+#parrafo{
+	color: #ecf0f1;
+	font-size: 20px;
+}
+.separador1{
+	background-color:#e74c3c; 
+	min-height:200px;
+	color: #FFF;
+}
+.botonesbuscar img{ 
+	margin-top:30px;
+	margin-left:45px;
+	margin-right:25px;  
+	border-radius:50%;
+	background-color:rgba(16,20,26,0.4);
+	padding-top:25px;
+	padding-left:25px;
+	padding-bottom:25px;
+	padding-right:25px;
+}
+
+.centrariconos{
+	margin-left:auto;
+	margin-right:auto;
+}
