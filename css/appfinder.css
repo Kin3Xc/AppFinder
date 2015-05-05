@@ -2,7 +2,16 @@ body{
 	background-color:#ecf0f1;
 	font-size:16px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	/*footer fijo*/
+	display: flex;
+	min-height: 50vh;
+	flex-direction: column; 
+	 flex: 1 0 auto;
+	/*fin del footer fijo*/
+
   }
+
+ 
 header {
 	background:url(../img/header.jpg)no-repeat center;
 	background-size:cover;
@@ -10,12 +19,22 @@ header {
 	min-height:720px;
 }
 nav {
-	background-color:transparent;
-	box-shadow:5px #888888;
+	background-color:rgba(16,20,26,0.4);
+	box-shadow:5px #888;
 /*	position: fixed; ESTE HACE QUE LA BARRA SE MANTENGA MIENTRAS SE DESLIZA*/ 
 }
+
+nav .barra ul li {
+	text-align: center;
+	margin-right:30px;
+	color:#432345;
+}
 nav .barra ul li a:hover{
-	color:#2c3e50;
+	background-color:rgba(16,20,26,0.3);
+}
+
+.appfinderlog{
+	margin-left: 50px; 
 }
 .registro a{
 	background-color:rgba(16,20,26,0.4);
@@ -65,4 +84,16 @@ nav .barra ul li a:hover{
 .centrariconos{
 	margin-left:auto;
 	margin-right:auto;
+}
+
+.botonbuscar{
+		background-color:rgba(16,20,26,0.7);
+
+}
+.botonbuscar:hover{
+	background-color:rgba(16,20,26,0.5);
+}
+
+footer {
+	background-color: #235;
 }
